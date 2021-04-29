@@ -1,0 +1,127 @@
+*
+
+.about {
+    width: 74%;
+    text-align: justify;
+}
+
+body {
+    background-color: white;
+    font-family: Helvetica;
+}
+
+section.content {
+    margin-top: 25px;
+}
+
+.content, .content2 {
+    display: flex;
+}
+
+.content p {
+    width: 74%;
+}
+
+.content .header {
+    flex: 1;
+    display: inline-block;
+    border-right: red solid 4px;
+    margin-right: 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.content .header h2 {
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
+
+.content .text {
+    flex: 4;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.content .text2 {
+    flex: 4;
+    display: flex
+}
+
+img {
+    /* display: flex; */
+    float: left;
+    margin-right: 20px;
+}
+
+.imgmarginsmall {
+    margin: 5px;
+    width: 25rem;
+}
+
+.imgmarginbig {
+    width: 50rem;
+    margin: 5px;
+}
+
+.bottomimages {
+    display: flex;
+}
+
+.bottomimages img {
+    align-items: center;
+}
+
+.main-header {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.main-header img {
+    width: 150px;
+    height: 50px;
+    margin-right: 20px;
+}
+
+nav {
+    display:flex;
+    background-color: black;
+    justify-content: center;
+    border-radius: 25px;
+}
+
+nav a {
+    color: white;
+    font-size: 17px;
+    text-decoration: none;
+    padding: 14px;
+}
+
+.photo {
+    height: 100px;
+    width: 100%;
+    background-image: url("https://user-images.githubusercontent.com/77896188/113947318-42c9c800-97bf-11eb-80ac-081ef596f58d.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.text2 {
+    width:50%;
+}
+
+.wrap {
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  justify-content: center;
+}
+
+@media screen and (max-width: 768px) {
+    .imgmarginbig{
+        width: 20rem;
+    }
+    .imgmarginsmall{
+        width: 20rem;
+    }
+}
