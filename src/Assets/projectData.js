@@ -25,11 +25,11 @@ const myArray = [
   },
   {
     imagesrc:
-      "https://user-images.githubusercontent.com/77896188/113954625-08682700-97cf-11eb-8dd5-b08c0c18ac05.png",
-    projecttitle: "Work Scheduler",
+      "https://user-images.githubusercontent.com/77896188/117095703-ea350e80-ad1b-11eb-9f37-62e832e7eaef.png",
+    projecttitle: "Fitness Tracker",
     projecttext: "Built a calendar application that allows a user to save events depending on the time of day.",
-    githubrepo: "https://github.com/nateskate256/Work-Scheduler",
-    githubrepotext: "Work Scheduler GitHub Repo",
+    githubrepo: "https://github.com/nateskate256/fitness-tracker",
+    githubrepotext: "Fitness Tracker GitHub Repo",
   },
   {
     imagesrc:
@@ -41,7 +41,7 @@ const myArray = [
   },
   {
     imagesrc:
-      "https://user-images.githubusercontent.com/77896188/113954625-08682700-97cf-11eb-8dd5-b08c0c18ac05.png",
+      "https://user-images.githubusercontent.com/77896188/117095821-439d3d80-ad1c-11eb-8021-7add36f5cc0f.png",
     projecttitle: "Work Scheduler",
     projecttext: "Built a calendar application that allows a user to save events depending on the time of day.",
     githubrepo: "https://github.com/nateskate256/Work-Scheduler",
